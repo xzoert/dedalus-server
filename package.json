@@ -4,7 +4,6 @@
   "description": "server for dedalus",
   "main": "server.js",
   "dependencies": {
-    "inotify": "^1.4.0",
     "tagman": "^1.0.0"
   },
   "devDependencies": {},
