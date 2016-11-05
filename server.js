@@ -33,8 +33,11 @@ var tagman;
 
 Tagman.q.get()
 .then(function(t) {
-	tagman=t;	
-	return tagman.define(' label ',Tagman.Text);
+	tagman=t;
+	tagman.define('label',Tagman.Text)
+	.then( () => {
+		return tagman.define('isdir',Tagman.Float)
+	});
 })
 .then( () => {
 	return Tagman.q.getRest(tagman);
