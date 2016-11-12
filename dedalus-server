@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+nodejs /usr/share/dedalus/dedalus-server/server.js
+
+
+

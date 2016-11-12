@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=dedalus-server
+Icon=/usr/share/icons/dedalus.svg
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Dedalus Server
+Name=Dedalus Server
+Comment[en_US]=
+Comment=
